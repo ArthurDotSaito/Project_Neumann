@@ -10,7 +10,7 @@ services:
 
   node:
     container_name: node
-    build: ./back-end
+    build: ./ProjectNeumann_back
     ports:
       - 5000:5000
     depends_on:
